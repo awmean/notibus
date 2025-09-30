@@ -4,7 +4,6 @@ import pwd
 
 import dbus
 import dbus.mainloop.glib
-from gi.repository import GLib
 
 from notibus.notification_data import NotificationData
 from notibus.recipient_type import RecipientType
