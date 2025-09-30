@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import grp
 import os
 import pwd
@@ -8,7 +6,9 @@ import dbus
 import dbus.mainloop.glib
 from gi.repository import GLib
 
-from notibus import NotificationData, RecipientType, Recipients
+from notibus.notification_data import NotificationData
+from notibus.recipient_type import RecipientType
+from notibus.recipients import Recipients
 
 
 class NotibusReceiver:

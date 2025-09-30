@@ -3,7 +3,8 @@
 from dataclasses import dataclass
 from typing import Literal
 
-from notibus import Recipients
+from notibus.recipients import Recipients
+
 
 # todo: this should include ALL of the freedesktop.Notify stuff
 @dataclass

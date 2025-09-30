@@ -2,7 +2,7 @@ import json
 from dataclasses import dataclass
 from typing import List
 
-from notibus import RecipientType
+from notibus.recipient_type import RecipientType
 
 
 @dataclass
