@@ -4,8 +4,8 @@ from typing import List
 
 import dbus
 
-from notibus import NotificationData
-from notibus import Recipients
+from notibus.notification_data import NotificationData
+from notibus.recipients import Recipients
 
 
 class NotibusSender:
